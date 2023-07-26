@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS BOX MODEL</title>
+        <style>
+            .box1{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid #000;
+                text-align: center;
+                font-weight: bold;
+                font-size: 2em;
+                text-decoration: underline;
+                display: inline-block;
+                margin-right: 50px;
+            }
+            .box1:hover{
+                background-color: red;
+                color: #fff;
+                border-radius: 200px;
+                cursor: pointer;
+            }
+            .box2{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid antiquewhite;
+                font-weight: bold;
+                text-align: center;
+                font-size: 2em; 
+                display: inline-block;   
+                margin-right: 50px;           
+            }
+            .box2:hover{
+                background-color: aliceblue;
+                color: #fff;
+                border-radius: 200px;
+                cursor: pointer;
+            }
+         
+            .box3{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid aliceblue;
+                font-weight: bold;
+                text-align: center;
+                font-size: 2em; 
+                display: inline-block;              
+            }
+            .box3:hover{
+                background-color: antiquewhite;
+                color: #fff;
+                border-radius: 200px;
+                cursor: pointer;
+            }
+         
+        </style>
+    </head>
+    <body>
+        <div class="box1">box1</div>
+        <div class="box2">AliceBlue</div>
+        <div class="box3">Antiquwhite</div>
+    </body>
+</html>
